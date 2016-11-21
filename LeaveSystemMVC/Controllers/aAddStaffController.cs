@@ -15,6 +15,7 @@ using LeaveSystemMVC.Models;
 
 namespace LeaveSystemMVC.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class aAddStaffController : Controller
     {
         // GET: aAddStaff
